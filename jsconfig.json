@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "lib": ["ESNext", "DOM"],
+    "paths": {
+      "@/*": ["./src/*"]
+    },
+    "types": ["cypress"]
+  },
+  "include": [
+    "src/**/*",
+    "cypress/**/*.js"
+  ],
+  "exclude": ["node_modules", "dist"]
+}
